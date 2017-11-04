@@ -1,0 +1,539 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:iso:std:iso:20022:tech:xsd:pain.008.001.02">
+	<CstmrDrctDbtInitn>
+		<GrpHdr>
+			<MsgId>R7800543F00020160114145746904254551</MsgId>
+			<CreDtTm>2016-01-12T00:00:00</CreDtTm>
+			<Authstn>
+				<Prtry>P0019T0192X0000195323</Prtry>
+			</Authstn>
+			<NbOfTxs>17</NbOfTxs>
+			<CtrlSum>4470.08</CtrlSum>
+			<InitgPty>
+				<Nm>PARROQUIA STA. CATALINA DE SIENA</Nm>
+				<Id>
+					<PrvtId>
+						<Othr>
+							<Id>ES63000R7800543F</Id>
+						</Othr>
+					</PrvtId>
+				</Id>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>201601141457461</PmtInfId>
+			<PmtMtd>DD</PmtMtd>
+			<NbOfTxs>17</NbOfTxs>
+			<CtrlSum>4470.08</CtrlSum>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>COR1</Cd>
+				</LclInstrm>
+				<SeqTp>RCUR</SeqTp>
+			</PmtTpInf>
+			<ReqdColltnDt>2016-01-12</ReqdColltnDt>
+			<Cdtr>
+				<Nm>PARROQUIA STA. CATALINA DE SIENA</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<IBAN>ES1000810591350001251035</IBAN>
+				</Id>
+			</CdtrAcct>
+			<CdtrAgt>
+				<FinInstnId>
+					<BIC>BSABESBBXXX</BIC>
+				</FinInstnId>
+			</CdtrAgt>
+			<ChrgBr>SLEV</ChrgBr>
+			<CdtrSchmeId>
+				<Id>
+					<PrvtId>
+						<Othr>
+							<Id>ES63000R7800543F</Id>
+						</Othr>
+					</PrvtId>
+				</Id>
+			</CdtrSchmeId>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 050522446W 20160114145746008</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">200.00
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000024</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>HERNANDEZ Y DIEZ de TEJADA, FAUSTINO</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES1701820900130140185006</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 003041569A 20160114145746012</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">72.12
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000049</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>NAVARRO DEL BARRIO, Mª  LUISA</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES8221002135810100312579</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 000434398C 20160114145746006</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">601.01
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000066</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>FERNANDEZ LUENGO, CARMEN</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES1500494079161690083424</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 004054587D 20160114145746016</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">200.00
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000209</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>POZA PALENCIA, MARTIN Y MAGD.MORALES RUZ</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES2201824027220200075296</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 050782825K 20160114145746001</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">721.21
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000215</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>ALFONSO ROBLA, FELIX</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES1420381144100060000537</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 000842358Y 20160114145746010</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">108.18
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000217</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>LEBRON CERVANTES, MARIA TERESA</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES4220381133830030007904</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 016134802A 20160114145746002</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">250.00
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000305</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>ANDA RUIZ DE ESCUDERO, MARIA CONCEPCION</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES2100750124110006006425</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 000958657V 20160114145746017</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">500.00
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000355</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>ZAZO OCAÑA, JOSEFA</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES9800492861142614305966</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 000003226Y 20160114145746011</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">150.25
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000361</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>LOPEZ DEL MAZO, GREGORIO</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES7301040108730300023391</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 000008537G 20160114145746013</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">601.01
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000362</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>PALAFOX ALBACETE, NATIVIDAD</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES1200850164490000002073</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 050304612R 20160114145746015</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">180.30
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000366</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>PORRAS GALLO, ALMUDENA</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES3400492196031810155520</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 025014207M 20160114145746005</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">36.00
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000384</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>Fernandez López, Maria Elvira</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES2300301122680000709271</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 007575273Q 20160114145746007</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">200.00
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000400</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>GARCIA ALVAREZ,MANUEL</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES9820381807126000207947</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 000176751L 20160114145746004</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">120.00
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000403</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>ESCORIAL SANFELIZ, SANTOS</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES0500301001380071095271</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 0000000000 20160114145746009</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">70.00
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000405</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>IBAÑEZ ORTEGA Mª BEGOÑA</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES6413029129220005462783</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 0000000000 20160114145746003</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">180.00
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000415</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>ARRUE DE PABLO Mª TERESA</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES0700491108262390423897</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>000009 051902182Z 20160114145746014</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">280.00
+				</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000416</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId>
+					</FinInstnId>
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>PEREZ NUÑEZ CARLOS PEDRO</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES7820381137623000012091</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>Financiación de la Iglesia Católica</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+		</PmtInf>
+	</CstmrDrctDbtInitn>
+</Document>

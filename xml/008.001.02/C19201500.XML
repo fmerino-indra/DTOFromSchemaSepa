@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="urn:iso:std:iso:20022:tech:xsd:pain.008.001.02">
+	<CstmrDrctDbtInitn>
+		<GrpHdr>
+			<MsgId>PRE2016011413194100488bsWindowsACC6</MsgId>
+			<CreDtTm>2016-01-14T13:19:41</CreDtTm>
+			<NbOfTxs>5</NbOfTxs>
+			<CtrlSum>1761.31</CtrlSum>
+			<InitgPty>
+				<Nm>PARROQUIA STA. CATALINA DE SIENA</Nm>
+				<Id>
+					<PrvtId>
+						<Othr>
+							<Id>ES63000R7800543F</Id>
+						</Othr>
+					</PrvtId>
+				</Id>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>20160114131941WC6R7800543F300</PmtInfId>
+			<PmtMtd>DD</PmtMtd>
+			<BtchBookg>false</BtchBookg>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>CORE</Cd>
+				</LclInstrm>
+				<SeqTp>RCUR</SeqTp>
+			</PmtTpInf>
+			<ReqdColltnDt>2016-01-21</ReqdColltnDt>
+			<Cdtr>
+				<Nm>PARROQUIA STA. CATALINA DE SIENA</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<IBAN>ES1000810591350001251035</IBAN>
+				</Id>
+			</CdtrAcct>
+			<CdtrAgt>
+				<FinInstnId>
+					<BIC>BSABESBBXXX</BIC>
+				</FinInstnId>
+			</CdtrAgt>
+			<CdtrSchmeId>
+				<Id>
+					<PrvtId>
+						<Othr>
+							<Id>ES63000R7800543F</Id>
+							<SchmeNm>
+								<Prtry>SEPA</Prtry>
+							</SchmeNm>
+						</Othr>
+					</PrvtId>
+				</Id>
+			</CdtrSchmeId>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>REFADEUDOQ0000000000</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">601.01</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000362</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId />
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>PALAFOX ALBACETE, NATIVIDAD</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES1200850164490000002073</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>FINANCIACIÓN DE LA IGLESIA CATÓLICA</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>REFADEUDOR0000000000</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">280.00</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000416</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId />
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>PEREZ NUÑEZ CARLOS PEDRO</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES7820381137623000012091</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>FINANCIACIÓN DE LA IGLESIA CATÓLICA</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>REFADEUDOS0000000000</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">180.30</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000366</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId />
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>PORRAS GALLO, ALMUDENA</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES3400492196031810155520</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>FINANCIACIÓN DE LA IGLESIA CATÓLICA</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>REFADEUDOT0000000000</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">200.00</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000209</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId />
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>POZA PALENCIA, MARTIN Y MAGD.MORALES RUZ</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES2201824027220200075296</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>FINANCIACIÓN DE LA IGLESIA CATÓLICA</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+			<DrctDbtTxInf>
+				<PmtId>
+					<EndToEndId>REFADEUDOU0000000000</EndToEndId>
+				</PmtId>
+				<InstdAmt Ccy="EUR">500.00</InstdAmt>
+				<DrctDbtTx>
+					<MndtRltdInf>
+						<MndtId>000000000355</MndtId>
+						<DtOfSgntr>2009-10-31</DtOfSgntr>
+					</MndtRltdInf>
+				</DrctDbtTx>
+				<DbtrAgt>
+					<FinInstnId />
+				</DbtrAgt>
+				<Dbtr>
+					<Nm>ZAZO OCAÑA, JOSEFA</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>ES9800492861142614305966</IBAN>
+					</Id>
+				</DbtrAcct>
+				<RmtInf>
+					<Ustrd>FINANCIACIÓN DE LA IGLESIA CATÓLICA</Ustrd>
+				</RmtInf>
+			</DrctDbtTxInf>
+		</PmtInf>
+	</CstmrDrctDbtInitn>
+</Document>
