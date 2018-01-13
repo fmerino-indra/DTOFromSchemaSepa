@@ -1,7 +1,7 @@
 <root>
   <facet id="jpt.jaxb">
     <node name="classgen">
-      <attribute name="package" value="com.sepa.domain"/>
+      <attribute name="package" value="com.sepa.domain.v002.v001.v03"/>
     </node>
     <node name="libprov">
       <attribute name="provider-id" value="jaxb-user-library-provider"/>
